@@ -4,5 +4,5 @@ public interface GerenciadorConvidadosInterface {
 
         void adicionarConvidado(String nome);
 
-        void imprimirConvidados();
+        void print();
 }

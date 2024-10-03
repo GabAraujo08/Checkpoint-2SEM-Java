@@ -7,6 +7,6 @@ public class Main {
         gerenciador.adicionarConvidado("João");
         gerenciador.adicionarConvidado("Maria");
         gerenciador.adicionarConvidado("João"); //Adicionei novamente "João", aceitou mas não imprimiu
-        gerenciador.imprimirConvidados();
+        gerenciador.print();
     }
 }

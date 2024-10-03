@@ -1,5 +1,4 @@
 package questao2;
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -12,7 +11,7 @@ public class GerenciadorConvidados implements GerenciadorConvidadosInterface {
     }
 
     @Override
-    public void imprimirConvidados() {
+    public void print() {
         for (String convidado : convidados) {
             System.out.println(convidado);
         }
